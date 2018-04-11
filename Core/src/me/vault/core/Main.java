@@ -8,6 +8,7 @@ import java.util.UUID;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
@@ -26,6 +27,7 @@ public class Main  extends JavaPlugin{
 	}
 	String mainPrefix = ChatColor.DARK_GRAY + "[" + ChatColor.GOLD + "Vault" 
 			+ ChatColor.DARK_GRAY + "]: " + ChatColor.GRAY;
+	public Material creditItem = Material.EMERALD;
 	public void onEnable() {
 		registerFolders();
 		registerFiles();
