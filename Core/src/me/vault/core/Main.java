@@ -24,8 +24,13 @@ public class Main  extends JavaPlugin{
 			pluginPlayer.removal();
 		}
 	}
-	String mainPrefix = ChatColor.DARK_GRAY + "[" + ChatColor.GOLD + "Vault" 
+	private String mainPrefix = ChatColor.DARK_GRAY + "[" + ChatColor.GOLD + "Vault" 
 			+ ChatColor.DARK_GRAY + "]: " + ChatColor.GRAY;
+	
+	public String getMainPrefix() {
+		return mainPrefix;
+	}
+	
 	public void onEnable() {
 		registerFolders();
 		registerFiles();
