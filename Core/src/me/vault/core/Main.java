@@ -27,13 +27,22 @@ public class Main  extends JavaPlugin{
 	}
 	private String mainPrefix = ChatColor.DARK_GRAY + "[" + ChatColor.GOLD + "Vault" 
 			+ ChatColor.DARK_GRAY + "]: " + ChatColor.GRAY;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ac34bf2a10bf7e21807217b5b0c7bfa89466742
 	
 	public String getMainPrefix() {
 		return mainPrefix;
 	}
 	
+<<<<<<< HEAD
 	public Material creditItem = Material.EMERALD;
 	
+=======
+
+
+>>>>>>> 9ac34bf2a10bf7e21807217b5b0c7bfa89466742
 	public void onEnable() {
 		registerFolders();
 		registerFiles();
